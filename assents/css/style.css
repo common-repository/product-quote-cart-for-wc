@@ -1,0 +1,204 @@
+.gmpqcw_inquirybtn{
+		margin-top: 10px;
+        display: inline-block;
+        width: 100%;
+}
+.gmpqcw_popup_op{
+	/*display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 9999999;*/
+   /* background-color: #fff;
+    border-radius: 10px 10px 10px 10px;*/
+    box-shadow: 0 0 25px 5px #999;
+    color: #111;
+    display: none;
+    min-width: 450px;
+    margin-top: 30px;
+    /*padding: 25px;*/
+}
+.gmpqcw_cart_table{
+    width: 100%;
+}
+.gmpqcw_cart_table th{
+    text-align: left;
+}
+.gmpqcwmsgc{
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+}
+.gmpqcwmsgc .gmpqcw_loop{
+    padding: 0 !Important;
+    margin: 0 !Important;
+    color: red;
+    font-size: 15px;
+    line-height: 18px;
+}
+.gmwerr div{
+    color: red;
+}
+.gmpqcwmsgc.gmwsuc div{
+    color: green;
+}
+.gmpqcw_inner_popup_op h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 8px 0;
+    background-color: #dcdcdc;
+}
+label.gmpqcw_label {
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+}
+label.gmpqcw_label span{
+    color: red;
+}
+.gmpqcw_submit {
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px 0;
+    float: left;
+    text-align: center;
+    /*background-color: #dcdcdc;*/
+}
+form#gmpqcw_popup_op_form {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+.gmpqcw_toplevel{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.gmpqcw_beforeformcontent , .gmpqcw_afterformcontent{
+    margin-top: 10px;
+}
+.gmpqcw_input {
+    
+    line-height: 20px !Important;
+    border: 1px solid #000 !Important;
+    height: 33px !Important;
+    border-radius: 2px !Important;
+    width: 100%;
+}
+.gmpqcw_loop.gmpqcw_full{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+textarea.gmpqcw_input{
+    height:80px !important;
+    display: flex;
+}
+.gmpqcw_captchadiv label{
+    float: left !Important;
+}
+.gmpqcw_captchadiv .gmpqcw_input{
+    width: 80px !Important;
+    float: left !Important;
+    margin-left: 5px;
+}
+.gmpqcw_inner_popup_op h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.gmpqcw_inner_popup_op {
+        
+  
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+   
+    padding: 0;
+    border-radius:0px;
+    /*margin-top: 10%;*/
+    position: relative;
+}
+.gmpqcw_inner_popup_op_mores {
+     background-color: #fff;
+     display: inline-block;
+     width: 100%;
+}
+.gmpqcw_popup_op.gmpqcw_active{
+    /*display: block;*/
+}
+.gmpqcw_close img{
+    width: 30px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+.gmpqcw_inner_popupcontant {
+    display: flex;
+    flex-direction: column;
+}
+.gmpqcw_inner_field label{
+    display: inline-block;
+}
+.gmpqcw_submit_btn{
+    padding: 10px 15px;
+    border-radius: 3px;
+    /*float: right;
+    margin-right: 10px;*/
+}
+.gmpqcw_popupcontant {
+}
+.gmpqcw_inquirybtn_loop .gmpqcw_inq{
+    margin-top: 0 !Important;
+}
+.gmpqcw_inquirytmltbtn_loop .gmpqcw_inq_addtocart{
+    margin-top: 0 !Important;
+}
+
+.gmpqcw_inquirybtn_loop{
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.gmpqcw_inquirytmltbtn_loop{
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.viewcaren{
+    margin-left: 10px !important;
+}
+.gmpqcw_loader .gmpqcw_inner_popup_op_mores{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.gmpqcw_form_dls .gmpqcw_popupcontant{
+       max-height: inherit;
+}
+@media only screen and (max-width: 600px) {
+    .gmpqcw_inner_popup_op{
+               max-width: 80%;
+      /*margin-right: 15px;
+      margin-left: 15px;*/
+   /* box-shadow: 0 0 25px 5px #999;*/
+   margin-top: 55px;
+    }
+    .gmpqcw_popup_op{
+       /* min-width:auto;*/
+        box-shadow: none;
+    }
+}
